@@ -1,3 +1,19 @@
-**/__pycache__
-*.pyc
-venv
+# Caches Python
+__pycache__/
+*.py[cod]
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+
+# Fichiers d'environnement / secrets
+.env
+
+# Dossiers/tests temporaires
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Éditeur / OS
+.vscode/
