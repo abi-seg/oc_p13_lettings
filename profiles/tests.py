@@ -1,3 +1,1 @@
-from django.test import TestCase
-
-# Create your tests here.
+# Fichier de tests pour l'application profiles.

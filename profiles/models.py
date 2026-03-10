@@ -7,8 +7,8 @@ from django.db import models
 class Profile(models.Model):
     """Profile model extending the default User model."""
     user = models.OneToOneField(
-        User, 
-        on_delete=models.CASCADE, 
+        User,
+        on_delete=models.CASCADE,
         verbose_name="utilisateur",
         related_name="profil_nouveau",
         related_query_name="profil_nouveau",

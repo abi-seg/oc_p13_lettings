@@ -30,5 +30,3 @@ class Letting(models.Model):
     def __str__(self) -> str:
         """Return the letting title as string representation."""
         return self.title
-
-

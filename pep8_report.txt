@@ -1,0 +1,14 @@
+[1m.\lettings\admin.py[m[36m:[m17[36m:[m40[36m:[m [1m[31mW292[m no newline at end of file
+[1m.\lettings\models.py[m[36m:[m34[36m:[m1[36m:[m [1m[31mW391[m blank line at end of file
+[1m.\lettings\tests.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mF401[m 'django.test.TestCase' imported but unused
+[1m.\lettings\urls.py[m[36m:[m9[36m:[m2[36m:[m [1m[31mW292[m no newline at end of file
+[1m.\lettings\views.py[m[36m:[m14[36m:[m61[36m:[m [1m[31mW292[m no newline at end of file
+[1m.\oc_lettings_site\urls.py[m[36m:[m2[36m:[m29[36m:[m [1m[31mE231[m missing whitespace after ','
+[1m.\oc_lettings_site\views.py[m[36m:[m3[36m:[m1[36m:[m [1m[31mE302[m expected 2 blank lines, found 1
+[1m.\oc_lettings_site\views.py[m[36m:[m5[36m:[m1[36m:[m [1m[31mW391[m blank line at end of file
+[1m.\profiles\models.py[m[36m:[m10[36m:[m14[36m:[m [1m[31mW291[m trailing whitespace
+[1m.\profiles\models.py[m[36m:[m11[36m:[m34[36m:[m [1m[31mW291[m trailing whitespace
+[1m.\profiles\models.py[m[36m:[m24[36m:[m34[36m:[m [1m[31mW292[m no newline at end of file
+[1m.\profiles\tests.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mF401[m 'django.test.TestCase' imported but unused
+[1m.\profiles\urls.py[m[36m:[m9[36m:[m2[36m:[m [1m[31mW292[m no newline at end of file
+[1m.\profiles\views.py[m[36m:[m14[36m:[m61[36m:[m [1m[31mW292[m no newline at end of file
