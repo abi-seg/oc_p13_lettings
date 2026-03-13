@@ -19,7 +19,5 @@ def erreur_serveur(request):
     }
     return render(request, "500.html", contexte, status=500)
 
-def declencher_erreur(request):
-    """ Intentionally raise an exception to test 500 error page. """
-    1/0
+
 

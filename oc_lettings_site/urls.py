@@ -8,7 +8,7 @@ urlpatterns = [
     path('lettings/', include("lettings.urls", namespace="lettings")),
     path('profiles/', include("profiles.urls", namespace="profiles")),
     path('admin/', admin.site.urls),
-    path('test-500/',views.declencher_erreur, name = "test_500")
+   
 ]
 
 handler404="oc_lettings_site.views.page_non_trouvee"
