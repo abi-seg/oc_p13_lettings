@@ -12,3 +12,77 @@
 [1m.\profiles\tests.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mF401[m 'django.test.TestCase' imported but unused
 [1m.\profiles\urls.py[m[36m:[m9[36m:[m2[36m:[m [1m[31mW292[m no newline at end of file
 [1m.\profiles\views.py[m[36m:[m14[36m:[m61[36m:[m [1m[31mW292[m no newline at end of file
+[1m.\lettings\__init__.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD104[m Missing docstring in public package
+[1m.\lettings\admin.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mD204[m 1 blank line required after class docstring
+[1m.\lettings\admin.py[m[36m:[m16[36m:[m1[36m:[m [1m[31mD204[m 1 blank line required after class docstring
+[1m.\lettings\apps.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\lettings\apps.py[m[36m:[m4[36m:[m1[36m:[m [1m[31mD101[m Missing docstring in public class
+[1m.\lettings\models.py[m[36m:[m7[36m:[m1[36m:[m [1m[31mD204[m 1 blank line required after class docstring
+[1m.\lettings\models.py[m[36m:[m15[36m:[m1[36m:[m [1m[31mD106[m Missing docstring in public nested class
+[1m.\lettings\models.py[m[36m:[m26[36m:[m1[36m:[m [1m[31mD204[m 1 blank line required after class docstring
+[1m.\lettings\tests.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\lettings\urls.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\lettings\views.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\lettings\views.py[m[36m:[m5[36m:[m1[36m:[m [1m[31mD103[m Missing docstring in public function
+[1m.\lettings\views.py[m[36m:[m11[36m:[m1[36m:[m [1m[31mD103[m Missing docstring in public function
+[1m.\manage.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\manage.py[m[36m:[m5[36m:[m1[36m:[m [1m[31mD103[m Missing docstring in public function
+[1m.\oc_lettings_site\__init__.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD104[m Missing docstring in public package
+[1m.\oc_lettings_site\admin.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\oc_lettings_site\apps.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\oc_lettings_site\apps.py[m[36m:[m4[36m:[m1[36m:[m [1m[31mD101[m Missing docstring in public class
+[1m.\oc_lettings_site\asgi.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\oc_lettings_site\settings.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\oc_lettings_site\tests.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\oc_lettings_site\tests.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD103[m Missing docstring in public function
+[1m.\oc_lettings_site\urls.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\oc_lettings_site\views.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\oc_lettings_site\views.py[m[36m:[m4[36m:[m1[36m:[m [1m[31mD103[m Missing docstring in public function
+[1m.\oc_lettings_site\wsgi.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\profiles\__init__.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD104[m Missing docstring in public package
+[1m.\profiles\admin.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mD204[m 1 blank line required after class docstring
+[1m.\profiles\apps.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\profiles\apps.py[m[36m:[m4[36m:[m1[36m:[m [1m[31mD101[m Missing docstring in public class
+[1m.\profiles\models.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mD204[m 1 blank line required after class docstring
+[1m.\profiles\tests.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\profiles\urls.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\profiles\views.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\profiles\views.py[m[36m:[m5[36m:[m1[36m:[m [1m[31mD103[m Missing docstring in public function
+[1m.\profiles\views.py[m[36m:[m11[36m:[m1[36m:[m [1m[31mD103[m Missing docstring in public function
+[1m.\lettings\__init__.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD104[m Missing docstring in public package
+[1m.\lettings\admin.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mD204[m 1 blank line required after class docstring
+[1m.\lettings\admin.py[m[36m:[m16[36m:[m1[36m:[m [1m[31mD204[m 1 blank line required after class docstring
+[1m.\lettings\apps.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\lettings\apps.py[m[36m:[m4[36m:[m1[36m:[m [1m[31mD101[m Missing docstring in public class
+[1m.\lettings\models.py[m[36m:[m7[36m:[m1[36m:[m [1m[31mD204[m 1 blank line required after class docstring
+[1m.\lettings\models.py[m[36m:[m15[36m:[m1[36m:[m [1m[31mD106[m Missing docstring in public nested class
+[1m.\lettings\models.py[m[36m:[m26[36m:[m1[36m:[m [1m[31mD204[m 1 blank line required after class docstring
+[1m.\lettings\tests.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\lettings\urls.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\lettings\views.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\lettings\views.py[m[36m:[m5[36m:[m1[36m:[m [1m[31mD103[m Missing docstring in public function
+[1m.\lettings\views.py[m[36m:[m11[36m:[m1[36m:[m [1m[31mD103[m Missing docstring in public function
+[1m.\manage.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\manage.py[m[36m:[m5[36m:[m1[36m:[m [1m[31mD103[m Missing docstring in public function
+[1m.\oc_lettings_site\__init__.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD104[m Missing docstring in public package
+[1m.\oc_lettings_site\admin.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\oc_lettings_site\apps.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\oc_lettings_site\apps.py[m[36m:[m4[36m:[m1[36m:[m [1m[31mD101[m Missing docstring in public class
+[1m.\oc_lettings_site\asgi.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\oc_lettings_site\settings.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\oc_lettings_site\tests.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\oc_lettings_site\tests.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD103[m Missing docstring in public function
+[1m.\oc_lettings_site\urls.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\oc_lettings_site\views.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\oc_lettings_site\views.py[m[36m:[m4[36m:[m1[36m:[m [1m[31mD103[m Missing docstring in public function
+[1m.\oc_lettings_site\wsgi.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\profiles\__init__.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD104[m Missing docstring in public package
+[1m.\profiles\admin.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mD204[m 1 blank line required after class docstring
+[1m.\profiles\apps.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\profiles\apps.py[m[36m:[m4[36m:[m1[36m:[m [1m[31mD101[m Missing docstring in public class
+[1m.\profiles\models.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mD204[m 1 blank line required after class docstring
+[1m.\profiles\tests.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\profiles\urls.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\profiles\views.py[m[36m:[m1[36m:[m1[36m:[m [1m[31mD100[m Missing docstring in public module
+[1m.\profiles\views.py[m[36m:[m5[36m:[m1[36m:[m [1m[31mD103[m Missing docstring in public function
+[1m.\profiles\views.py[m[36m:[m11[36m:[m1[36m:[m [1m[31mD103[m Missing docstring in public function

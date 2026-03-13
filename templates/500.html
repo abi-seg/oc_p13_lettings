@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<div class = "container py-5 text-center">
+    <h1>Erreur interne du serveur (500) </h1>
+    <p> Une erreur inattendue est survenue. Veuillez réessayer plus tard. </p>
+    <a class = "btn btn-primary mt-3" href="{% url 'index' %}">Retour à l'accueil</a>
+</div>
+{% endblock %}
