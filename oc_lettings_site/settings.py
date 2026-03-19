@@ -1,4 +1,8 @@
 import os
+import logging
+import sentry_sdk
+from sentry_sdk.integrations.django import DjangoIntegration
+from sentry_sdk.integrations.logging import LoggingIntegration
 
 from pathlib import Path
 
@@ -13,7 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'fp$9^593hsriajg$_%=5trot9g!1qa@ew(o-1#@=&4%=hp46(s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
 
@@ -114,3 +118,60 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / "static",]
+
+# Sentry configuration
+SENTRY_DSN = os.getenv("SENTRY_DSN", "")
+
+if SENTRY_DSN:
+    sentry_logging = LoggingIntegration(
+        level=logging.INFO,        # capture info+ logs as breadcrumbs
+        event_level=logging.ERROR, # send events to Sentry for errors+
+    )
+
+    sentry_sdk.init(
+        dsn=SENTRY_DSN,
+        integrations=[DjangoIntegration(), sentry_logging],
+        traces_sample_rate=1.0,
+        send_default_pii=True,
+        environment=os.getenv("SENTRY_ENV", "development"),
+        release=os.getenv("SENTRY_RELEASE", "local"),
+    )
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "simple": {
+            "format": "[{levelname}] {name} - {message}",
+            "style": "{",
+        },
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "formatter": "simple",
+        },
+    },
+    "loggers": {
+        "django.request": {
+            "handlers": ["console"],
+            "level": "ERROR",
+            "propagate": True,
+        },
+        "oc_lettings_site": {
+            "handlers": ["console"],
+            "level": "INFO",
+            "propagate": False,
+        },
+        "lettings": {
+            "handlers": ["console"],
+            "level": "INFO",
+            "propagate": False,
+        },
+        "profiles": {
+            "handlers": ["console"],
+            "level": "INFO",
+            "propagate": False,
+        },
+    },
+}
