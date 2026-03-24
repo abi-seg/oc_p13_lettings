@@ -7,8 +7,8 @@ logger = logging.getLogger(__name__)
 
 def index(request):
     """Display the home page."""
-    #logger.info("Affichage de la page d'acceuil")
-    logger.error("Test log error sent to Sentry depuis la page d'acceuil") 
+    logger.info("Affichage de la page d'acceuil")
+    #logger.error("Test log error sent to Sentry depuis la page d'acceuil") 
     return render(request, 'index.html')
 
 def page_non_trouvee(request, exception):
