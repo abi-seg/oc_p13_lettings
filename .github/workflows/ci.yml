@@ -22,7 +22,7 @@ jobs:
                 python -m pip install flake8 coverage
 
             - name: Run flake8
-              run: python-m flake 8
+              run: python -m flake8
 
             - name: Run tests with coverage
               run: |
