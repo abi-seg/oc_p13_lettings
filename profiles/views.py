@@ -1,3 +1,4 @@
+"""Views for the profiles application."""
 from django.shortcuts import render
 from .models import Profile
 import logging
@@ -14,7 +15,7 @@ def index(request):
 
 def profile(request, username):
     """Displays the details of a single profile."""
-    logger.info("Affichage du profil pour l'utilisateur %s",username)
+    logger.info("Affichage du profil pour l'utilisateur %s", username)
     profile = Profile.objects.get(user__username=username)
     context = {"profile": profile}
     return render(request, "profiles/profile.html", context)

@@ -1,3 +1,4 @@
+"""URL routing for the lettings application."""
 from django.urls import path
 from . import views
 

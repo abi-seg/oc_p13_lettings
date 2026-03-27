@@ -35,17 +35,20 @@ def test_vue_profiles_index(client, profil):
     reponse = client.get(url)
 
     assert reponse.status_code == 200
-    assert "profiles/index.html" in [template.name for template in reponse.templates]
+    assert "profiles/index.html" in [
+        template.name for template in reponse.templates]
     assert b"johndoe" in reponse.content
 
 
 @pytest.mark.django_db
 def test_vue_profile_detail(client, profil):
     """Detail view should display the selected profile."""
-    url = reverse("profiles:profile", kwargs={"username": profil.user.username})
+    url = reverse("profiles:profile", kwargs={
+                  "username": profil.user.username})
     reponse = client.get(url)
 
     assert reponse.status_code == 200
-    assert "profiles/profile.html" in [template.name for template in reponse.templates]
+    assert "profiles/profile.html" in [
+        template.name for template in reponse.templates]
     assert b"johndoe" in reponse.content
     assert b"Test City" in reponse.content

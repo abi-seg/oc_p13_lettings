@@ -12,7 +12,7 @@ class Profile(models.Model):
         verbose_name="utilisateur",
         related_name="profil_nouveau",
         related_query_name="profil_nouveau",
-        )
+    )
     favorite_city = models.CharField(
         max_length=64,
         blank=True,
