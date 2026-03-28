@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 def index(request):
 
     """Display the list of lettings."""
-    raise Exception("Erreur de test 500")
+    #raise Exception("Erreur de test 500")
     logger.info("Affichage de la liste des locations")
     lettings_list = Letting.objects.all()
     context = {"lettings_list": lettings_list}
