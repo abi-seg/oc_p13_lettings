@@ -15,7 +15,7 @@ Prérequis
 
    .. code-block:: bash
 
-      git clone <url_du_repository>
+      git clone https://github.com/OpenClassrooms-Student-Center/Python-OC-Lettings-FR.git
       cd Python-OC-Lettings-FR
 
 2. Créer et activer un environnement virtuel :

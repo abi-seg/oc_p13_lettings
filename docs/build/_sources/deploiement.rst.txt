@@ -1,20 +1,20 @@
-Déploiement:
+Déploiement
 ===========
 
 Le projet a été préparé pour un déploiement industrialisé.
 
-Déploiement avec Docker:
+Déploiement avec Docker
 -----------------------
 
 L’application peut être conteneurisée grâce au fichier ``Dockerfile`` fourni
 dans le projet.
 
-Déploiement avec Render:
+Déploiement avec Render
 -----------------------
 
 L’application a été déployée sur la plateforme Render en tant que service web.
 
-Le déploiement repose sur :
+Le déploiement repose sur 
 
 - Gunicorn comme serveur WSGI
 - WhiteNoise pour la gestion des fichiers statiques
