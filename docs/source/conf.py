@@ -2,9 +2,11 @@
 import os
 import sys
 from pathlib import Path
+import django
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 os.environ["DJANGO_SETTINGS_MODULE"] = "oc_lettings_site.settings"
+django.setup()
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
